@@ -1,0 +1,144 @@
+
+.about-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(heading.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;  
+    margin-top: 80px;
+  }
+  .about-heading h1{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+.about-img img{
+    width: 500px;
+}
+.about-container h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.about-box{    
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 10px;
+    width: 500px;
+    /* height: 150px; */
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px #0000001a;
+    transition: all 0.3s ease;
+}
+.about-box:hover{
+    background-color: #c47bff;
+    color: white;
+}
+.about-box-data{
+    text-align: justify;
+}
+.about-logo img{
+    width: 80px;
+}
+
+.awrapper {
+    background-image: url(analysis1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: #fff;
+  }
+  .awrapper-container{
+    display: flex;
+    column-gap: 80px;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.514);
+    
+    /* margin-right: 10px; */
+  }
+  .awrapper .box {
+    margin: 10px;
+    padding: 50px 0;
+    display: flex;
+  }
+  .awrapper img {
+    /* margin-right: 300px; */
+    width: 80px;
+  }
+  .text{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: 10px;
+  }
+  .awrapper h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: -20px;
+  }
+  .awrapper h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+
+@media screen and (max-width: 768px){
+  
+    .about-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-img img{
+        width: 400px;
+    }
+    .awrapper{
+        background-image: url(analysis2.jpg);
+        height: 90vh;
+    }
+    .awrapper-container{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+    }
+    
+    .text{
+        margin-bottom: -10px;
+    }
+   
+    .about-box{
+        width: 340px;
+    }
+}
+
+
+

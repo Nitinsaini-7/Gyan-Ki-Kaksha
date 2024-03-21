@@ -1,0 +1,107 @@
+.team-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(heading.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;  
+  margin-top: 80px;
+}
+.team-heading h1{
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.team-items {
+    background-color: white;
+    color: #6300b4;
+    width: 250px;
+    margin: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.100);
+  }
+  .team-box{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+
+    
+  }
+  .team-img-icon {
+    position: relative;
+  }
+  .team-img-icon img {
+    width: 100%;
+  }
+  .team-icon{
+    position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .team-icon i {
+    background-color: #6300b4;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: 5px;
+    transition: 0.5s;
+  }
+  .team-data {
+    text-align: center;
+  }
+  .team-data h2 {
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  .team-data p {
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  .team-items:hover {
+    background-color: #6300b4;
+    color: #fff;
+    cursor: pointer;
+  }
+  .team-items:hover p {
+    color: #fff;
+  }
+  .team-items:hover .team-icon {
+    opacity: 1;
+  }
+  .team-items:hover .team-icon i:hover {
+    background-color: white;
+    color: #6300b4;
+  }
+  
+
+  @media screen and (max-width: 768px){
+    .team-items {
+        background-color: white;
+        color: #6300b4;
+        width: 180px;
+        margin: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.100);
+      }
+    .team-box{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }

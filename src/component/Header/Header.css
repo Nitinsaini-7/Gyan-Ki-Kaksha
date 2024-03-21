@@ -1,0 +1,133 @@
+header{
+    background-color: #8c00ff;
+    margin: 10px 15px;
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 95vw;
+    position: fixed;
+    top: 0px;
+}
+
+.flexSB{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+
+}
+.flexSB ul li {
+    color: white;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.nav-name{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-name:hover{
+    color: #6300b4;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    margin-top: 10px;
+    width: 120px;
+}
+.flexSB ul{
+    column-gap: 50px;
+    color: white;
+}
+
+.login-signup{
+    display: flex;
+    column-gap: 10px;
+    font-weight: 500;
+}
+.login-signup button{
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-btn, .signup-btn{
+    background-color: #6300b4;
+    color: white;
+}
+.login-btn:hover, .signup-btn:hover{
+    background-color: white;
+    color: #6300b4;
+}
+.toggle{
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+/* About */
+
+
+.container1{
+    margin: 0px 100px;
+    display: flex;
+    column-gap: 300px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    header{
+        margin: 10px 2px;
+        background-color: #8c00ff;
+        position: fixed;
+        
+    }
+    header ul.flexSB{
+        display: none;
+    }
+    .logo img{
+        margin-left: -10px;
+        width: 80px;
+    }
+   
+    .toggle{
+        display: block;
+        background-color: none;
+        color: white;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        font-size: 25px;
+        color: white;
+        
+    }
+    .login-signup{
+        margin-right: 40px;
+        align-items: center;
+    }
+    .flexSB ul{
+        text-align: center;
+        font-size: 20px;
+    }
+    .flexSB ul li{
+        margin-right: 30px;
+        padding: 10px;
+    }
+    .mobile-nav{
+        position: absolute;
+        top: 4vh;
+        left: 0;
+        width: 90%;
+        background-color: #6300b4;
+        
+    }
+}

@@ -1,0 +1,143 @@
+.trending-course-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(heading.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;  
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.trending-course-heading h1{
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.trending-courses-container h1{
+  font-size: 30px;
+  text-align: center;
+}
+.trending-courses-card{
+    display: grid;
+     align-items: center;
+     justify-content: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+   }
+   .trending-courses-card .items{
+     border: none;
+     border-radius: 5px;
+     width: 380px;
+     height: 430px;
+     text-align: center;
+     background-color: #6300b421;
+ 
+   }
+ 
+ 
+   .trending-courses-card img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+   }
+   .trending-courses-card .text {
+    margin-right: 10px;
+     text-align: center;
+     margin-top: 10px;
+   }
+   .trending-courses-card .text h1 {
+     margin-top: 10px;
+     font-size: 25px;
+     font-weight: 500;
+   }
+   .trending-courses-card .rate {
+     margin: 20px 0;
+     color: rgb(255, 217, 0);
+   }
+   .trending-courses-card .rate i {
+     font-size: 18px;
+     cursor: pointer;
+     
+   }
+   .trending-courses-card .details{
+     margin-top: 30px;
+   }
+   .trending-courses-card .details .dimg{
+     display: flex;
+     justify-content: center;
+   }
+   .trending-courses-card .details .dimg img {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+   }
+   .trending-courses-card .details .box {
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     color: #666666;
+   }
+   .trending-courses-card .details span {
+     color: #6300b4;
+     font-weight: 500;
+     font-size: 18px;
+   }
+    .price {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     margin: 10px 20px;
+     border-radius: 0px;
+     background-color: white;
+     cursor: pointer;
+   }
+   .trending-courses-card h3 {
+     font-weight: bold;
+     color: #6300b4;
+   }
+ 
+   .trending-courses-container .enroll-btn{
+     background-color: #6300b4;
+     color: white;
+     width: 150px;
+     height: 40px;
+     border-radius: 5px;
+     border: none;
+     transition: all 0.3s ease;
+     cursor: pointer;
+   }
+   .trending-courses-container .enroll-btn:hover{
+     background-color: white;
+     color: #6300b4;
+     border: solid 1px #6300b4;
+   }
+
+@media screen and (max-width: 768px) {
+  .trending-courses-card{
+    display: grid;
+    grid-template-columns: auto;
+     margin-top: 200px;
+     
+   }
+   .price{
+    margin: 10px 20px;
+   }
+   .trending-courses-card .items{
+    width: 360px;
+
+  }
+  .trending-course-heading{
+    margin-bottom: -170px;
+  }
+   
+
+}

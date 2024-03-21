@@ -1,0 +1,74 @@
+
+.quote-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(heading.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;  
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .quote-heading h1{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-align: center;
+    font-size: 40px;
+    color: white;
+  }
+.quote h1{
+    text-align: center;
+}
+.quote-container{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-data{
+    background-color: #6300b4;
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+}
+.quote-data img{
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 50%;
+}
+.quote-data p{
+    color: white;
+}
+.quote-data span{
+    font-weight: bold;
+    color: #ab45ff;
+}
+.quote-btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+.quote-btn button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #6300b4;
+    color: white;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px){
+    .quote-data{
+        background-color: #6300b4;
+        text-align: center;
+        width: 350px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+}

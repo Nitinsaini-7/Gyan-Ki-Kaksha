@@ -1,0 +1,78 @@
+.home{
+    background: url("maya-maceka-yW-Qgw_IJXg-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-text{
+    height: 80vh;
+    width: 100%;
+    padding-top: 30vh;
+    background-image: linear-gradient(to bottom, #6300b4, #8c00ff00);
+    color: white;
+    text-align: center;
+}
+.home-text h1{
+    font-size: 50px;
+    color: #6300b4;
+    text-shadow: 0px 0px 5px white;
+    margin: -10px;
+}
+
+.home-text h3{
+    font-size: 25px;
+}
+.home-btns-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.home-text p{
+    /* padding: 0px 200px; */
+    font-size: 20px;
+}
+
+.home-btns{
+    display: flex;
+    column-gap: 20px;
+    padding-top: 50px;
+}
+
+.home-btns button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.start-btn{
+    background-color: #6300b4;
+    color: white;
+}
+.start-btn:hover{
+    background-color: #8c00ff;
+}
+.course-btn{
+    background-color: white;
+    color: #6300b4;
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        background-image: url("maya.jpg");
+    }
+  .home-text h1{
+    font-size: 42px;
+  }
+}

@@ -1,0 +1,80 @@
+.pricing-heading{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(heading.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;  
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.pricing-heading h1{
+    width: 100vw;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.pricing{
+    margin-bottom: 50px;
+}
+.pricing-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price-items{
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    color: #6300b4;
+    text-align: center;
+    box-shadow: 0px 0px 10px #0000001a;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+.price-items h1{
+    font-size: 40px;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+.price-items:hover{
+    background-color: #6300b4;
+    color: white;
+}
+.pricing-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pricing-btn button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0084ff;
+    color: white;
+    cursor: pointer;
+}
+.pricing-btn button:hover{
+    background-color: #40a3ff;
+}
+
+@media screen and (max-width: 768px){
+    .pricing-container{
+        display: grid;
+    }
+    .price-items{
+
+        width: 350px;
+    }
+}
