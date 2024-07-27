@@ -1,3 +1,9 @@
+It is a web application which have set of interactive services that provide educational content and
+resources with pre-recorded lessons.
+
+https://gyan-ki-kaksha.netlify.app/
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
